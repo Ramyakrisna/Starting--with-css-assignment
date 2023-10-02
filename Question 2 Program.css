@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Question 2</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="title--intro">
+      <p>
+        This is the introduction of the page.
+      </p>
+    </div >
+    <div class="title--content">
+      <p >
+        This is the main content of the page.
+      </p>
+    </div>
+    <div class="title--footer">
+      <p >
+        This is the footer of the page.
+      </p>
+    </div>
+    <div class="BEM">
+      <p>
+        In this example, i've used the BEM convention by prefixing each class with the block name('title')<br> followed by two hypens and an element name ('intro','content','footer').This helps to create clear and<br> modular class names for styling each paragraph differently.
+      </p>
+    </div>
+  </body>
+</html>
+
+
+
+
+CSS RULES:
+
+
+.title--intro p{
+    color: brown;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.title--content p{
+    color:darkgreen;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title--footer p{
+    color:deeppink;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.BEM p{
+    color:darkblue;
+    background-color:darkkhaki;
+}
+

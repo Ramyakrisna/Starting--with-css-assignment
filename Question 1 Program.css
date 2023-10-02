@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> CSS </title>
+    <style>
+      .fruits{color:red;}
+      .animals{color:yellow;}
+    </style>
+    <link rel="stylesheet" href="style.css">
+    </head>
+  <body>
+    <div>
+      <h1 class="fruits" style="color:blueviolet;">Apple</h1>
+    </div>
+    <div>
+      <h1 class="animals">Dog</h1>
+    </div>
+    <div>
+      <h1 class="vegetables">Tomato</h1>
+    </div>
+
+  </body>
+
+</html>
+
+External:
+
+.fruits{color: blue;}
+.animals{color: brown;}
+.vegetables{color:orange;}
+
+
+
+
+
